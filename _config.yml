@@ -1,0 +1,75 @@
+title: Shevil Panchal | Product designer
+baseurl: "shevil_design"
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+description: A portfolio theme with a blog
+color_scheme: dark
+accent_color: yellow
+header:
+  title: Shevil
+  has_nav: true
+  nav_links:
+    - label: 🏠 Home
+      url: /
+      style: link
+    - label: 🚀 Projects
+      url: /portfolio/
+      style: link
+    - label: 🧪 Creativity lab
+      url: /lab/
+      style: link
+    - label: 📝 Blog
+      url: /blog/
+      style: link
+    - label: 🙋‍♂️ About
+      url: /about/
+      style: link
+    - label: 📨 Message me
+      url: /message/
+      style: link
+footer:
+  content: >-
+    Made with  ❤️  by Shevil Panchal
+  has_social: true
+  social_links:
+    - label: Twitter
+      url: 'https://twitter.com/'
+      style: icon
+      icon_class: fa-twitter
+      new_window: true
+    - label: Instagram
+      url: 'https://www.instagram.com/'
+      style: icon
+      icon_class: fa-instagram
+      new_window: true
+    - label: Dribbble
+      url: 'https://dribbble.com/'
+      style: icon
+      icon_class: fa-dribbble
+      new_window: true
+    - label: LinkedIn
+      url: 'https://www.linkedin.com/'
+      style: icon
+      icon_class: fa-linkedin
+      new_window: true
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
